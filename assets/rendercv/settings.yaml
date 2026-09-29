@@ -1,0 +1,11 @@
+settings:
+  render_command:
+    # Paths are relative to _data/cv.yml.
+    typst_path: ../assets/rendercv/rendercv_output/cv.typ
+    pdf_path: ../assets/pdf/cv.pdf
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []

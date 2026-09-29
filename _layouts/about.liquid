@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<div class="post personal-home">
+  <header class="profile-header">
+    {% if page.profile.image %}
+      {% assign portrait = page.profile.image | prepend: '/assets/img/' %}
+      <img
+        class="profile-portrait"
+        src="{{ portrait | relative_url }}"
+        alt="Portrait of {{ site.first_name }} {{ site.last_name }}"
+        width="80"
+        height="80"
+      >
+    {% else %}
+      <div class="profile-portrait portrait-placeholder" role="img" aria-label="Profile photo placeholder">photo</div>
+    {% endif %}
+    <div class="profile-heading">
+      <h1>
+        {{ site.first_name -}}
+        {%- if site.middle_name %} {{ site.middle_name }}{% endif %}
+        {{ site.last_name }}
+      </h1>
+      <p>{{ page.subtitle }}</p>
+    </div>
+    {% if page.social %}
+      <div class="profile-social-links" aria-label="Social links">{% social_links %}</div>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="profile-introduction">{{ content }}</div>
+
+    {% if page.announcements.enabled %}
+      <section class="recent-panel" aria-labelledby="recent-heading">
+        <h2 id="recent-heading">Recently</h2>
+        {% include news.liquid limit=true %}
+      </section>
+    {% endif %}
+
+    {% if site.contact_note %}
+      <p class="contact-note">{{ site.contact_note }}</p>
+    {% endif %}
+
+    {% if page.selected_papers %}
+      <section class="home-section" aria-labelledby="selected-heading">
+        <div class="section-heading">
+          <h2 id="selected-heading">Selected works</h2>
+          <a href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">→</span></a>
+        </div>
+        {% if page.selected_note %}
+          <p class="section-note">{{ page.selected_note }}</p>
+        {% endif %}
+        {% include selected_papers.liquid %}
+      </section>
+    {% endif %}
+
+    {% if page.latest_posts.enabled %}
+      <section class="home-section" aria-labelledby="writing-heading">
+        <div class="section-heading">
+          <h2 id="writing-heading">Writing</h2>
+          <a href="{{ '/blog/' | relative_url }}">All notes <span aria-hidden="true">→</span></a>
+        </div>
+        <ul class="compact-post-list">
+          {% for post in site.posts limit: page.latest_posts.limit %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %Y' }}</time>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  </article>
+</div>

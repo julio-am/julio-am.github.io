@@ -1,0 +1,13 @@
+{
+  "name": "julio-am-personal-site",
+  "private": true,
+  "scripts": {
+    "dev": "python3 scripts/preview.py",
+    "format": "prettier . --write",
+    "lint:prettier": "prettier . --check"
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "1.10.0",
+    "prettier": "3.8.0"
+  }
+}

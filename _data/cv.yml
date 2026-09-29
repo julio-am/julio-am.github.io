@@ -1,0 +1,35 @@
+# The web CV and downloadable PDF are generated from this file.
+# All entries below are placeholders, not biographical claims.
+cv:
+  name: Your Name
+  location: Location to add
+  website: https://julio-am.github.io
+  social_networks:
+    - network: GitHub
+      username: julio-am
+  sections:
+    Summary:
+      - bullet: Placeholder CV. Add your professional focus, personal details, and achievements.
+    Education:
+      - institution: Institution name
+        date: Dates to add
+        area: Field of study
+        degree: TBD
+        highlights:
+          - Placeholder — add your degree, institution, and dates.
+    Experience:
+      - company: Organization name
+        date: Dates to add
+        position: Position title
+        summary: Placeholder — describe your role, contributions, and dates.
+        highlights:
+          - Add a specific responsibility or achievement.
+    Projects:
+      - name: Project title
+        summary: Placeholder — summarize the problem, your contribution, and the result.
+    Technical skills:
+      - label: Methods and tools
+        details: Add your relevant methods, programming languages, or tools.
+    Research interests:
+      - label: Research interests
+        details: Add the questions and topics you work on.
