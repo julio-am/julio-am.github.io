@@ -3,18 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Your
-middle_name:
-last_name: Name
+first_name: Julio
+middle_name: A.
+last_name: Medina
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website — biography, research, projects, and writing. Content placeholders are ready to personalize.
+  Welcome to my personal site!
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 keywords: # Add your research interests here.
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: en, es # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ◦ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
