@@ -18,6 +18,6 @@ latest_posts:
   limit: 2
 ---
 
-This is a placeholder for your introduction. Add a few sentences about your work, your research interests, and what you are working on now.
+Hi, I'm Julio. Lately, I'm a distributed systems software engineer with experience at Meta, Microsoft, and Amazon. Previously I was an undergraduate student at Harvey Mudd College, where I researched novel applications of emerging Augmented and Virtual Reality technologies.
 
-A second paragraph can cover your background, collaborations, or interests outside work.
+Just like my work, my hobbies are all over the place. Ask me about classical piano, instructing high-performance driving, or biking in circles very slowly. 
