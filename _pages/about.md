@@ -18,6 +18,6 @@ latest_posts:
   limit: 2
 ---
 
-Hi, I'm Julio. Lately, I'm a distributed systems software engineer with experience at Meta, Microsoft, and Amazon. Previously I was an undergraduate student at Harvey Mudd College, where I researched novel applications of emerging Augmented and Virtual Reality technologies.
+I'm Julio, welcome to my website! I'm a generalist engineer and builder with experience at Meta, Microsoft, and Amazon. Previously, I was an undergraduate student at Harvey Mudd College, where I researched novel applications for emerging Augmented and Virtual Reality technologies.
 
-Just like my work, my hobbies are all over the place. Ask me about classical piano, instructing high-performance driving, or biking in circles very slowly. 
+Just like my work, my hobbies are all over the place. Ask me about classical piano, being a high-performance driving instructor, or biking in circles very slowly. 
