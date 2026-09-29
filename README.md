@@ -1,8 +1,8 @@
 # Personal website
 
-A real [al-folio](https://github.com/alshedivat/al-folio) / Jekyll site with placeholder content, a compact layout, and free hosting at **https://julio-am.github.io**.
+An [al-folio](https://github.com/alshedivat/al-folio) / Jekyll site hosted at **https://julio-am.github.io**.
 
-Based on al-folio **v1.2**, with its versioned theme and feature gems pinned in `Gemfile.lock`. This is a Jekyll site; React is not required.
+Based on al-folio **v1.2**, with its versioned theme and feature gems pinned in `Gemfile.lock`.
 
 ## Add your details
 
@@ -18,8 +18,6 @@ Based on al-folio **v1.2**, with its versioned theme and feature gems pinned in 
 | Projects                               | `_projects/`                                                                 |
 | Blog posts                             | `_posts/`                                                                    |
 | Colors, fonts, spacing                 | `_sass/_personal.scss`                                                       |
-
-All sample personal content is explicitly marked as a placeholder. The GitHub account and hosting URL come from this repository. The example publication authors, year, and venue text are not biographical claims. Replace or remove those entries before sharing the site as a finished profile.
 
 The [customization guide](docs/CUSTOMIZE.md) explains how to replace each type of content and enable optional features.
 
