@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Your role · Your institution
+subtitle: Distributed Systems Builder · Meta
 profile:
   image: # Add a filename from assets/img/ when you have a portrait.
   image_circular: true
